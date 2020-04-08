@@ -1,125 +1,26 @@
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Fira Code", sans-serif;
 }
-
-.container {
-  width: 100%;
-  position: relative;
-  height: 100vh;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
-.taniltsuulga {
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1.2rem;
-  width: 100%;
-  color: black;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.button {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border-radius: 5px;
-}
-.button:hover {
-  background-color: orange;
-  border: none;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.button a:hover {
-  color: #fff;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-h1 {
-  font-size: 6rem;
-}
-h2 {
-  font-size: 4rem;
-}
-.button a {
-  text-decoration: none;
-  color: #555;
-}
-
-ul {
-  float: right;
-}
-nav {
-  background-color: #555;
-}
-ul li {
-  display: inline-block;
-  margin-right: 20px;
-  padding: 20px;
-  font-size: 2rem;
-  cursor: pointer;
-}
-ul li a {
-  text-decoration: none;
-  list-style: none;
-  color: #555;
-}
-
-.clearfix {
-  clear: both;
-}
-.img1 {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center center;
-  border: 4px solid orange;
-}
-.nav-item:hover {
-  background-color: orange;
-  color: #fff;
-}
-.body {
+.col-6 {
   width: 100%;
   height: 100vh;
 }
-.row-program-nav {
-  background-color: #333;
-} */
+.bg {
+  background-color: #999;
+  height: 100vh;
+}
 .information {
-  background-color: #888;
-  width: 100%;
-  height: 100vh;
-  margin-left: 80px;
+  margin-left: 20px;
 }
-.imageposition {
-  position: relative;
-}
-.imgclass {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border-radius: 4px solid #fff;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  /* position: absolute; */
-  top: 10px;
-  align-items: center;
-}
-.iconme {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-}
-.iconme i {
-  text-align: center;
+.information a:hover {
+  color: #fff;
 }
 .contactinfo a {
   padding-left: 20px;
@@ -133,8 +34,199 @@ ul li a {
   width: 20px;
   height: 20px;
 }
-.col-8 {
-  padding-left: 20px;
+.col-6 {
   width: 100%;
   height: 100vh;
+}
+.classBody {
+  width: 100%;
+  margin-left: 20px;
+}
+.heading {
+  background-color: #999;
+  color: #fff;
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+h4 h5 {
+  font-weight: 600;
+}
+.program {
+  font-weight: 700;
+}
+.educationtype {
+  font-weight: 700;
+  margin-bottom: -10px;
+  display: inline-block;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+hr {
+  border: 2px solid #555;
+}
+.garchigCourse {
+  font-weight: bold;
+}
+.job a {
+  font-size: 16px;
+}
+.carousel-caption {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*  
+Menu css
+
+*/
+
+.nav-item a {
+  font-size: 2.5rem;
+  padding: 0 20px;
+  margin-left: 10px;
+  color: #555;
+}
+header {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nav-item a:hover {
+  border-bottom: 4px solid orange;
+  transform: scale(1.1);
+}
+/*
+gol css medeelel
+
+*/
+.jobName {
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+}
+.job a {
+  font-size: 30px;
+}
+.job p {
+  font-size: 25px;
+}
+.h4 {
+  font-size: 30px;
+}
+.h5 {
+  font-size: 25px;
+}
+.university p {
+  font-size: 23px;
+}
+/*
+bogino hugatsaanii surgalt
+
+*/
+.garchigCourse {
+  font-size: 25px;
+  font-weight: 400;
+}
+.course p {
+  font-size: 24px;
+  color: #333;
+}
+.course a {
+  text-decoration: none;
+  color: #333;
+}
+/*
+urd heseg
+*/
+.contactinfo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.contactinfo a {
+  color: #fff;
+  font-size: 25px;
+}
+.accountinfo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.accountinfo a {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.accountinfo h3 {
+  color: #fff;
+  font-size: 30px;
+}
+.headInfo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.headInfo i {
+  display: inline-block;
+}
+.headInfo h3 {
+  display: inline-block;
+  margin-left: 20px;
+}
+.headInformation {
+  margin-top: 10px;
+}
+.headInfoHead h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+.headInfoHead p {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+.iconme h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.imageposition {
+  margin-top: 20px;
+}
+.imgclass {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.imgP {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.headInfo h3 {
+  color: #fff;
+  font-size: 30px;
+}
+.softwareskill {
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.softwareskill a {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.progress {
+  width: 100%;
+  margin-top: 10px;
+}
+.iconlogo {
+  width: 30px;
+  height: 30px;
 }
