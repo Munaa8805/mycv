@@ -18,409 +18,416 @@
       href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/headstyle.css" />
+    <link rel="stylesheet" href="css/programm.css" />
+
     <title>Програм хангамж</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Нүүр</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="program.html">Програм хангамж</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="attachment.html">Хавсралт материал</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Нүүр</a>
+        <a href="program.html" class="active">Програм хангамж</a>
+        <a href="attachment.html">Хавсралт</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </header>
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-6 bg">
-            <div class="information">
-              <div class="imageposition">
-                <p class="imgP">
-                  <img src="img/img1.jpg" class="imgclass" alt="zurag" />
-                </p>
+          <div class="col-lg-6 first-section">
+            <div class="img">
+              <p><img src="img/img1.jpg" alt="" class="src" /></p>
+            </div>
+            <div>
+              <h2>Миний тухай</h2>
+              <p class="information">
+                Програм хангамжийн мэргэжилийг эзэмшихээр хичээн суралцаж байгаа
+                нэгэн. Миний бие хийсэн жижиг төслүүдээ GitHub хуудас дээрээ
+                байрлуулсан байгаа тул та бүхэн сонирхож болно.
+              </p>
+            </div>
+            <div class="contactinfo">
+              <div class="headInformation">
+                <i class="fa fa-phone fa-2x"
+                  ><a class="contactinformation">+976 88058822</a></i
+                >
               </div>
-              <div class="iconme">
-                <h4>Миний тухай</h4>
+              <div class="headInformation">
+                <i class="fa fa-envelope-square fa-2x" aria-hidden="true"
+                  ><a class="contactinformation"
+                    >munaa.tsetsegmaa@gmail.com</a
+                  ></i
+                >
               </div>
-              <div class="headInfoHead">
-                <p>
-                  Програм хангамжийн мэргэжилийг эзэмшихээр хичээн суралцаж
-                  байгаа нэгэн. Миний бие хийсэн жижиг төслүүдээ GitHub хуудас
-                  дээрээ байрлуулсан байгаа тул та бүхэн сонирхож болно.
-                </p>
+              <div class="headInformation">
+                <i class="fa fa-home fa-2x" aria-hidden="true"
+                  ><a class="contactinformation"
+                    >ХУД 3-р хороо Ривер стоун-1
+                  </a></i
+                >
               </div>
-              <div class="contactinfo">
-                <div class="headInformation">
-                  <i class="fa fa-phone fa-2x"><a>+976 88058822</a></i>
-                </div>
-                <div class="headInformation">
-                  <i class="fa fa-envelope-square fa-2x" aria-hidden="true"
-                    ><a>munaa.tsetsegmaa@gmail.com</a></i
+              <div class="headInfo">
+                <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                <h3>Сошиал хаяг</h3>
+              </div>
+              <div class="headInformation">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"
+                  ><a
+                    class="socialMedia text-warning"
+                    href="https://www.facebook.com/Munaa.tse"
+                    target="_blank"
+                    >Facebook/Munaa.tse</a
+                  ></i
+                >
+              </div>
+              <div class="headInformation">
+                <i class="fa fa-envelope-square fa-2x" aria-hidden="true"
+                  ><a class="socialMedia text-warning" href="" target="_blank"
+                    >munaa.tsetsegmaa@gmail.com</a
+                  ></i
+                >
+              </div>
+              <div class="headInformation">
+                <i class="fa fa-github-square fa-2x" aria-hidden="true"
+                  ><a
+                    class="socialMedia text-warning"
+                    href="https://github.com/Munaa8805"
+                    target="_blank"
+                    >https://github.com/Munaa8805</a
+                  ></i
+                >
+              </div>
+            </div>
+            <div class="softwareinfo">
+              <div class="headInfo">
+                <i class="fa fa-pie-chart fa-2x" aria-hidden="true"></i>
+                <h3>Програм</h3>
+              </div>
+              <div class="softwareskill">
+                <i
+                  ><img src="img/html.png" class="iconlogo" alt="HTML" /><a
+                    >HTML</a
                   >
-                </div>
-                <div class="headInformation">
-                  <i class="fa fa-home fa-2x" aria-hidden="true"
-                    ><a>ХУД 3-р хороо Ривер стоун-1 </a></i
-                  >
+                </i>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
               </div>
-              <div class="accountinfo">
-                <div class="headInfo">
-                  <i class="fa fa-users fa-2x" aria-hidden="true"></i>
-                  <h3>Сошиал хаяг</h3>
-                </div>
-                <div class="headInformation">
-                  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"
-                    ><a
-                      href="https://www.facebook.com/Munaa.tse"
-                      target="_blank"
-                      >Facebook/Munaa.tse</a
-                    ></i
-                  >
-                </div>
-                <div class="headInformation">
-                  <i class="fa fa-envelope fa-2x" aria-hidden="true"
-                    ><a href="" target="_blank"
-                      >munaa.tsetsegmaa@gmail.com</a
-                    ></i
-                  >
-                </div>
-                <div class="headInformation">
-                  <i class="fa fa-github-square fa-2x" aria-hidden="true"
-                    ><a href="https://github.com/Munaa8805" target="_blank"
-                      >https://github.com/Munaa8805</a
-                    ></i
-                  >
+              <div class="softwareskill">
+                <i
+                  ><img src="img/css.png" class="iconlogo" alt="CSS" /><a
+                    >CSS</a
+                  ></i
+                >
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 60%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
               </div>
-              <div class="softwareinfo">
-                <div class="headInfo">
-                  <i
-                    class="fa fa-pie-chart fa-2x"
-                    aria-hidden="true"
-                    aria-hidden="true"
-                  ></i>
-                  <h3>Програм</h3>
+              <div class="softwareskill">
+                <i
+                  ><img src="img/js.png" class="iconlogo" alt="JS" /><a
+                    >JAVASCRIPT</a
+                  ></i
+                >
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 30%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
-                <div class="softwareskill">
-                  <i
-                    ><img src="img/html.png" class="iconlogo" alt="HTML" /><a
-                      >HTML</a
+              </div>
+              <div class="softwareskill">
+                <i
+                  ><img src="img/git.png" class="iconlogo" alt="GIT" /><a
+                    >GIT</a
+                  ></i
+                >
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 60%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="softwareskill">
+                <i
+                  ><img src="img/react.png" class="iconlogo" alt="REACT JS" /><a
+                    >REACT JS</a
+                  ></i
+                >
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 10%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="softwareskill">
+                <i
+                  ><img src="img/mssql.png" class="iconlogo" alt="REACT JS" /><a
+                    >MS SQL , MY SQL</a
+                  ></i
+                >
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="lessons">
+              <h2>Судалсан хичээл</h2>
+              <ul>
+                <li>Алгоритмын үндэс</li>
+                <li>Өгөгдлийн сангийн үндэс</li>
+                <li>Интернет технологийн үндэс</li>
+                <li>Веб програмчлал</li>
+                <li>Визуаль програмчлал</li>
+                <li>Объект хандлагат програмчлал</li>
+                <li>Програмчлалын Си хэл</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 second-section">
+            <div>
+              <h3 class="jobname">
+                ВЕБ ХӨГЖҮҮЛЭЛТ
+              </h3>
+            </div>
+            <div class="section">
+              <div class="garchig">
+                <i
+                  class="fa fa-briefcase fa-2x developer"
+                  aria-hidden="true"
+                ></i
+                ><a class="garchigEronhii">Веб хөгжүүлэлт</a>
+                <hr>
+              </div>
+              <div class="section-body">
+                <span class="jobName"><b>GitHub дээрхи төсөл</b></span>
+                <div class="jobWeb">
+                  <div class="jobdiv">
+                    <span class="webName"
+                      >Веб програмчлал хичээлд зориулж dynamic web хийж
+                      байна.</span
                     >
-                  </i>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 90%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/WebDevelopmentLesson_V2/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
-                </div>
-                <div class="softwareskill">
-                  <i
-                    ><img src="img/css.png" class="iconlogo" alt="CSS" /><a
-                      >CSS</a
-                    ></i
-                  >
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 60%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                  <div class="jobdiv">
+                    <span class="webName">Coffee and Cake.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/CoffeeCake/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
-                </div>
-                <div class="softwareskill">
-                  <i
-                    ><img src="img/js.png" class="iconlogo" alt="JS" /><a
-                      >JAVASCRIPT</a
-                    ></i
-                  >
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 30%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                  <div class="jobdiv">
+                    <span class="webName">Weather app.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/Weather/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
-                </div>
-                <div class="softwareskill">
-                  <i
-                    ><img src="img/git.png" class="iconlogo" alt="GIT" /><a
-                      >GIT</a
-                    ></i
-                  >
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 60%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                  <div class="jobdiv">
+                    <span class="webName">StartupLandingPage.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/StartupLandingPage/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
-                </div>
-                <div class="softwareskill">
-                  <i
-                    ><img
-                      src="img/react.png"
-                      class="iconlogo"
-                      alt="REACT JS"
-                    /><a>REACT JS</a></i
-                  >
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 10%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                  <div class="jobdiv">
+                    <span class="webName">CalculatorJS.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/CalculatorJS/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
-                </div>
-                <div class="softwareskill">
-                  <i
-                    ><img
-                      src="img/mssql.png"
-                      class="iconlogo"
-                      alt="REACT JS"
-                    /><a>MS SQL , MY SQL</a></i
-                  >
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 50%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
+                  <div class="jobdiv">
+                    <span class="webName">RockPaperScissors.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/RockPaperScissors/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
+                  </div>
+                  <div class="jobdiv">
+                    <span class="webName">FoodRecipe.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/FoodRecipe/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
+                  </div>
+                  <div class="jobdiv">
+                    <span class="webName">Money Calculator.</span>
+                    <a
+                      class="webName"
+                      href="https://munaa8805.github.io/MoneyCalculator/"
+                      target="_blank"
+                      >Та үзэхийг хүсвэл энд дарна уу</a
+                    >
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="container">
-              <div class="row">
-                <div class="classBody">
-                  <div class="heading">
-                    <h2>Мунаа</h2>
-                    <h3>Веб Хөгжүүлэгч</h3>
-                  </div>
-                  <div class="jobexperience">
-                    <i class="fa fa-briefcase fa-2x" aria-hidden="true"
-                      ><h3 class="educationtype">
-                        ВЕБ ХӨГЖҮҮЛЭЛТ
-                      </h3></i
-                    >
-                    <hr />
-                    <span class="jobName">GitHub дээрхи төсөл</span>
-                    <div class="jobWeb">
-                      <div class="jobdiv">
-                        <span class="webName"
-                          >Веб програмчлал хичээлд зориулж dynamic web хийж
-                          байна.</span
-                        >
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/WebDevelopmentLesson_V2/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">Coffee and Cake.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/CoffeeCake/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">Weather app.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/Weather/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">StartupLandingPage.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/StartupLandingPage/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">CalculatorJS.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/CalculatorJS/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">RockPaperScissors.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/RockPaperScissors/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">FoodRecipe.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/FoodRecipe/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                      <div class="jobdiv">
-                        <span class="webName">Money Calculator.</span>
-                        <a
-                          class="webName"
-                          href="https://munaa8805.github.io/MoneyCalculator/"
-                          target="_blank"
-                          >Та үзэхийг хүсвэл энд дарна уу</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="jobexperience">
-                    <i class="fa fa-briefcase fa-2x" aria-hidden="true"
-                      ><h3 class="educationtype">Ажлын туршлага</h3></i
-                    >
-                    <hr />
-                    <div class="job">
-                      <span
-                        ><a
-                          class="jobName"
-                          href="http://polaris.mn/"
-                          target="_blank"
-                          >Поларис инженеринг ХХК</a
-                        ></span
-                      >
-                      <p>2018.10-2019.08: Геологич</p>
-                      <span
-                        ><a
-                          class="jobName"
-                          href="https://www.southgobi.com/html/index.php"
-                          target="_blank"
-                          >Сауд Гоби Сэндс ХХК</a
-                        ></span
-                      >
-                      <p>
-                        2014.04-2018.08: Нөөцийн геологич , Ашиглалтын геологич
-                      </p>
-                      <span
-                        ><a
-                          class="jobName"
-                          href="https://www.mcs.mn/"
-                          target="_blank"
-                          >MCS-Петро Монголиа ХХК</a
-                        ></span
-                      >
-                      <p>2011.10-2014.04: Хайгуулын геологич</p>
-                      <span class="jobName">Адамас-Майнинг ХХК</span>
-                      <p>2008.06-2011.11: Хайгуулын геологич</p>
-                    </div>
-                  </div>
-                  <div class="educationexperience">
-                    <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"
-                      ><h3 class="educationtype">Боловсрол</h3></i
-                    >
-
-                    <hr />
-                    <div class="university">
-                      <h4 class="h4">Монгол Улсын Их Сургууль</h4>
-                      <h5 class="h5">Хэрэглээний Шинжлэх Ухааны Сургууль</h5>
-                      <p class="bolobsrol">
-                        2019-Одоо: <a class="program">Програм хангамж</a>
-                      </p>
-                      <h4 class="h4">Монгол Улсын Их Сургууль</h4>
-                      <h5 class="h5">Газарзүй-Геологийн факультет</h5>
-                      <p class="bolobsrol">2004-2008: Геологийн инженер</p>
-                      <h4 class="h4">Мөрөн сум</h4>
-                      <p class="bolobsrol">
-                        1994-2004: Мөрөн сумын 2-р сургууль
-                      </p>
-                    </div>
-                  </div>
-                  <div class="course">
-                    <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"
-                      ><h3 class="educationtype">
-                        Богино хугацааны сургалт
-                      </h3></i
-                    >
-                    <hr />
-                    <span class="garchigCourse">Эхлэл академи</span>
-                    <p>
-                      2019-2019:
-                      <a
-                        href="https://www.ehlel.com/ger-bul/ehlel-academy"
-                        target="_blank"
-                        >Програм хангамж</a
-                      >
-                    </p>
-                    <span class="garchigCourse">1234 онлайн сургалт</span>
-                    <p>
-                      2020 он:
-                      <a href="https://1234.mn/course/77" target="_blank"
-                        >JAVASCRIPT хэлийг эхнээс нь дуустал!</a
-                      >
-                    </p>
-                    <span class="garchigCourse">Udemy онлайн сургалт</span>
-                    <p>
-                      2020 он:
-                      <a href="https://www.udemy.com/" target="_blank"
-                        >JAVASCRIPT хэлний сургалт!</a
-                      >
-                    </p>
-                    <span class="garchigCourse">Абсолют сургалтын төв</span>
-                    <p>
-                      2020 он:
-                      <a href="http://www.absolute.mn/" target="_blank"
-                        >Абсолют англи хэлний дунд шатны сургалт</a
-                      >
-                    </p>
-                  </div>
-                </div>
+            <div class="section">
+              <div class="jobexperience">
+                <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i
+                ><a class="garchigEronhii">Ажлын туршлага</a>
+                <hr />
               </div>
+              <div class="job">
+                <span
+                  ><a class="jobCompany" href="http://polaris.mn/" target="_blank"
+                    >Поларис инженеринг ХХК</a
+                  ></span
+                >
+                <p>2018.10-2019.08: Геологич</p>
+                <span
+                  ><a
+                    class="jobCompany"
+                    href="https://www.southgobi.com/html/index.php"
+                    target="_blank"
+                    >Сауд Гоби Сэндс ХХК</a
+                  ></span
+                >
+                <p>
+                  2014.04-2018.08: Нөөцийн геологич , Ашиглалтын геологич
+                </p>
+                <span
+                  ><a class="jobCompany" href="https://www.mcs.mn/" target="_blank"
+                    >MCS-Петро Монголиа ХХК</a
+                  ></span
+                >
+                <p>2011.10-2014.04: Хайгуулын геологич</p>
+                <span class="jobCompany">Адамас-Майнинг ХХК</span>
+                <p>2008.06-2011.11: Хайгуулын геологич</p>
+              </div> 
+            </div>
+            <div class="section">
+              <div class="educationexperience">
+                <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i
+                ><a class="garchigEronhii">Боловсрол</a>
+
+                <hr />
+              </div>
+              <div class="university">
+                <h4 class="h4">Монгол Улсын Их Сургууль</h4>
+                <h5 class="h5">Хэрэглээний Шинжлэх Ухааны Сургууль</h5>
+                <p class="bolobsrol">
+                  2019-<b>Одоо:</b> <a class="program">Програм хангамж</a>
+                </p>
+                <h4 class="h4">Монгол Улсын Их Сургууль</h4>
+                <h5 class="h5">Газарзүй-Геологийн факультет</h5>
+                <p class="bolobsrol">2004-2008: Геологийн инженер</p>
+                <h4 class="h4">Мөрөн сум</h4>
+                <p class="bolobsrol">
+                  1994-2004: Мөрөн сумын 2-р сургууль
+                </p>
+              </div>
+              <div class="section">
+                <div class="educationexperience">
+                  <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i
+                  ><a class="garchigEronhii">Богино хугацааны сургалт</a>
+  
+                  <hr />
+                </div>
+                <div class="university">
+                  <span  class="jobCompany">Эхлэл академи</span>
+              <p>
+                2019-2019:
+                <a
+                  href="https://www.ehlel.com/ger-bul/ehlel-academy"
+                  target="_blank"
+                  >Програм хангамж</a
+                >
+              </p>
+              <span  class="jobCompany">1234 онлайн сургалт</span>
+              <p>
+                2020 он:
+                <a href="https://1234.mn/course/77" target="_blank"
+                  >JAVASCRIPT хэлийг эхнээс нь дуустал!</a
+                >
+              </p>
+              <span  class="jobCompany">Udemy онлайн сургалт</span>
+              <p>
+                2020 он:
+                <a href="https://www.udemy.com/" target="_blank"
+                  >JAVASCRIPT хэлний сургалт!</a
+                >
+              </p>
+              <span  class="jobCompany">Абсолют сургалтын төв</span>
+              <p>
+                2020 он:
+                <a href="http://www.absolute.mn/" target="_blank"
+                  >Абсолют англи хэлний дунд шатны сургалт</a
+                >
+              </p>
+                </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

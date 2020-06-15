@@ -45,31 +45,32 @@
         color: white;
       }
       .img1 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        border: 5px solid #222;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        height: 18.75rem;
+        width: 18.75rem;
+        border: 3px solid orange;
       }
       h1 {
         font-weight: 300;
-        font-size: 60px;
+        font-size: 4rem;
         text-transform: uppercase;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
       }
-      h3 {
-        font-weight: 300;
-        font-size: 60px;
-        text-transform: uppercase;
-        margin-top: 20px;
-        margin-bottom: 20px;
+      @media screen and (max-width: 1200px) {
+        h1 {
+          font-size: 2rem;
+        }
       }
+
       button {
         background-color: orange;
         border: none;
         border-radius: 5px;
       }
       button:hover {
+        transform: scale(1.1);
         background-image: linear-gradient(
             92deg,
             rgba(168, 168, 168, 0.04) 0%,
@@ -130,12 +131,16 @@
       }
       button a {
         color: #fff;
-        font-size: 60px;
+        font-size: 4rem;
         text-align: center;
-        /* padding: 20px 40px 20px 40px; */
-        padding: 40px;
+        padding: 2.5rem;
         text-decoration: none;
         text-transform: uppercase;
+      }
+      @media screen and (max-width: 1200px) {
+        button a {
+          font-size: 2rem;
+        }
       }
     </style>
     <title>Мунаа</title>
@@ -146,7 +151,7 @@
         <div class="hero-text">
           <img src="img/img1.jpg" alt="zurag" class="img1" />
           <h1>Мунаа</h1>
-          <h3>Танилцуулга</h3>
+          <h1>Танилцуулга</h1>
           <button><a href="program.html">Програм хангамж</a></button>
         </div>
       </div>
