@@ -41,6 +41,16 @@ h2 {
   margin-bottom: 2rem;
   margin-left: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .contactinformation {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .contactinformation {
+    font-size: 1.5rem;
+  }
+}
 .accountinfo a {
   color: #222;
   font-size: 1.5rem;
@@ -49,6 +59,16 @@ h2 {
 .socialMedia {
   margin-left: 1rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  .socialMedia {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .socialMedia {
+    font-size: 1.5rem;
+  }
 }
 .headInfo {
   margin-top: 1.25rem;
@@ -103,7 +123,7 @@ second section
 .jobname {
   text-align: center;
   margin-top: 2rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 .developer {
   display: inline-block;
@@ -115,6 +135,27 @@ hr {
   font-size: 2rem;
   margin-left: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .garchigEronhii {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .garchigEronhii_nemelt {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .garchigEronhii {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .garchigEronhii_nemelt {
+    font-size: 2rem;
+  }
+}
+
 .section {
   margin-top: 3rem;
 }
@@ -127,4 +168,34 @@ hr {
 }
 .jobCompany {
   font-size: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  .jobCompany {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .jobCompany {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .h4 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .h5 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .h5 {
+    font-size: 1.5rem;
+  }
 }
