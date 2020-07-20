@@ -5,7 +5,7 @@
   width: 100%;
 }
 .first-section {
-  background-color: #4caf50;
+  background-color: #f37736;
   border-radius: 1rem;
 }
 /* .second-section {
@@ -104,6 +104,7 @@ h2 {
 .iconlogo {
   width: 1.875rem;
   height: 1.875rem;
+  object-fit: contain;
 }
 .lessons {
   margin-top: 2rem;
