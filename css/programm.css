@@ -5,8 +5,9 @@
   width: 100%;
 }
 .first-section {
-  background-color: #f37736;
+  background-color: #586776;
   border-radius: 1rem;
+  color: white;
 }
 /* .second-section {
   background-color: #00ff83;
@@ -96,6 +97,7 @@ h2 {
   margin-left: 1.25rem;
   font-size: 1.25rem;
   color: #222;
+  color: white;
 }
 .progress {
   width: 100%;
